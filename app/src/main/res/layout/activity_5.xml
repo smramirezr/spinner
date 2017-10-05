@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     tools:context="com.sandra.spinnertaller.Activity5">
 
     <TextView
@@ -25,24 +26,24 @@
         android:id="@+id/botonmm"
         android:layout_width="127dp"
         android:layout_height="41dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/background_dark"
         android:onClick="onClick"
         android:text="Regresar"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.772"
-        app:layout_constraintHorizontal_bias="0.501" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="300dp"
         android:layout_height="180dp"
-        android:src="@drawable/mujeres"
+        android:src="@drawable/mujeres1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
