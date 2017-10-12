@@ -8,6 +8,21 @@
     tools:context="com.sandra.spinnertaller.Activity6">
 
     <TextView
+        android:id="@+id/textView11"
+        android:layout_width="158dp"
+        android:layout_height="29dp"
+        android:text="Infantil"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
         android:id="@+id/textView5"
         android:layout_width="277dp"
         android:layout_height="86dp"
@@ -20,7 +35,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintVertical_bias="0.665" />
 
     <Button
         android:id="@+id/botoninf"
@@ -37,7 +52,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintVertical_bias="0.889" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -45,11 +60,9 @@
         android:layout_height="180dp"
         android:src="@drawable/infantil1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="23dp" />
+        app:layout_constraintVertical_bias="0.22"
+        app:srcCompat="@mipmap/ic_launcher" />
 </android.support.constraint.ConstraintLayout>
